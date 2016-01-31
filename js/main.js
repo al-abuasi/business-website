@@ -9,3 +9,8 @@ $(document).ready( function() {
         'scrollSpeed' : 1000
     });
 });
+
+
+$(window).ready(function(){
+    $('div[id="s1"]').css('min-height', $(window).height());
+})

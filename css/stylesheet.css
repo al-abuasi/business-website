@@ -64,9 +64,9 @@ a {
 	min-width: 960px;
 	z-index: 10;
 	position: relative;
-	margin: 0 auto;
+	margin: 0 auto ;
 	padding: 0 0 20px 0;
-	min-height: 500px;
+	min-height: 600px !important;
 	height: 500px;
 
 }
@@ -95,6 +95,7 @@ a {
 	z-index: 1000;
 	width: 100%;
 	background: #000000;
+
 }
 
 .subMenu .inner {
@@ -114,7 +115,8 @@ a {
 	font-size: 14px;
 	padding: 15px 2% 0 2%;
 	text-align: center;
-	
+	-webkit-box-sizing: content-box !important;
+	box-sizing: content-box !important;
 	color: #fff;
 }
 .subMenu a:hover {
@@ -145,17 +147,19 @@ a {
 .s1 {
 	background:white;
 	color:#555;
-	min-height: 500px;
-	height: 600px;
-	
+	min-height: 900px !important;
+	height: 900px !important;
+	padding-top:50px;
+	margin-right:500px;
+
 }
 
 
 .s2 {
 	background: white;
-	min-height: 500px;
+	min-height: 600px !important;
 	color: #555;
-	height: 600px;
+	height: 700px !important;
 }
 .s2 a {
 	color: #fff;
