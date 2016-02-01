@@ -58,6 +58,19 @@ footer {
     height: 100px !important;
 }
 
+#about-img {
+    height: 250px;
+    width 200px;
+    float: left;
+}
+
+.second-p{
+
+}
+
+
+/*---Media Queries ---*/
+
 @media(max-width:1200px) {
     .headline h1 {
         font-size: 140px;
