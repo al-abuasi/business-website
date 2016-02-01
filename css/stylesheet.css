@@ -55,7 +55,7 @@ body {
 
 footer {
     margin: 50px 0;
-    height: 100px !important;
+    text-align: center;
 }
 
 #about-img {
@@ -65,7 +65,11 @@ footer {
 }
 
 .second-p{
+    margin-right:25px;
+}
 
+#i-text{
+    text-align: center;
 }
 
 
